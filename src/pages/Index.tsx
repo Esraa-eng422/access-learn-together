@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -300,11 +299,7 @@ const MainContent: React.FC = () => {
 
 const Index: React.FC = () => {
   return (
-    <AuthProvider>
-      <AccessibilityProvider>
-        <MainContent />
-      </AccessibilityProvider>
-    </AuthProvider>
+    <MainContent />
   );
 };
 
